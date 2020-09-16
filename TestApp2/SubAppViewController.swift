@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  SubAppViewController.swift
 //  TestApp2
 //
 //  Created by Apple on 16/09/20.
@@ -9,7 +9,7 @@
 import UIKit
 import Alamofire
 
-open class ViewController: UIViewController {
+open class SubAppViewController: UIViewController {
 
     open override func viewDidLoad() {
         super.viewDidLoad()

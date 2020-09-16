@@ -3,13 +3,13 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		187345DD2511EB45002DF58C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187345DC2511EB45002DF58C /* AppDelegate.swift */; };
 		187345DF2511EB45002DF58C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187345DE2511EB45002DF58C /* SceneDelegate.swift */; };
-		187345E12511EB45002DF58C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187345E02511EB45002DF58C /* ViewController.swift */; };
+		187345E12511EB45002DF58C /* SubAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 187345E02511EB45002DF58C /* SubAppViewController.swift */; };
 		187345E42511EB45002DF58C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 187345E22511EB45002DF58C /* Main.storyboard */; };
 		187345E72511EB45002DF58C /* TestApp2.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 187345E52511EB45002DF58C /* TestApp2.xcdatamodeld */; };
 		187345E92511EB45002DF58C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 187345E82511EB45002DF58C /* Assets.xcassets */; };
@@ -43,7 +43,7 @@
 		187345D92511EB45002DF58C /* TestApp2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestApp2.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		187345DC2511EB45002DF58C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		187345DE2511EB45002DF58C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		187345E02511EB45002DF58C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		187345E02511EB45002DF58C /* SubAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SubAppViewController.swift; sourceTree = "<group>"; };
 		187345E32511EB45002DF58C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		187345E62511EB45002DF58C /* TestApp2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TestApp2.xcdatamodel; sourceTree = "<group>"; };
 		187345E82511EB45002DF58C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,7 +120,7 @@
 			children = (
 				187345DC2511EB45002DF58C /* AppDelegate.swift */,
 				187345DE2511EB45002DF58C /* SceneDelegate.swift */,
-				187345E02511EB45002DF58C /* ViewController.swift */,
+				187345E02511EB45002DF58C /* SubAppViewController.swift */,
 				187345E22511EB45002DF58C /* Main.storyboard */,
 				187345E82511EB45002DF58C /* Assets.xcassets */,
 				187345EA2511EB45002DF58C /* LaunchScreen.storyboard */,
@@ -168,7 +168,6 @@
 				6BB065C8EA97CDD3B082B9C8 /* Pods-TestApp2Tests.debug.xcconfig */,
 				5230B429005E76A94978EB0E /* Pods-TestApp2Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -412,7 +411,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				187345E72511EB45002DF58C /* TestApp2.xcdatamodeld in Sources */,
-				187345E12511EB45002DF58C /* ViewController.swift in Sources */,
+				187345E12511EB45002DF58C /* SubAppViewController.swift in Sources */,
 				187345DD2511EB45002DF58C /* AppDelegate.swift in Sources */,
 				187345DF2511EB45002DF58C /* SceneDelegate.swift in Sources */,
 			);

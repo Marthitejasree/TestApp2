@@ -22,7 +22,7 @@ open class SubAppViewController: UIViewController {
          let request = AF.request("https://swapi.dev/api/films")
          // 2
          request.responseJSON { (data) in
-           print(data)
+           print("SubAPP :" ,data)
          }
        }
 
